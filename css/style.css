@@ -110,7 +110,7 @@ h1 {
 }
 
 .avengerrs-img {
-    opacity: 0.8;
+    
 }
 
 .section-one {
@@ -236,9 +236,9 @@ h1 {
 }
 
 .template {
-   width: 390px;
-   height: 275px;
-   background-color: #151515;
+    width: 390px;
+    height: 275px;
+    background-color: #151515;
 }
 
 .section-data {
@@ -252,7 +252,7 @@ h1 {
     overflow: auto;
     border-radius: 3px;
     color: rgb(181, 213, 245);
-background-color: rgb(39, 52, 65);
+    background-color: rgb(39, 52, 65);
 }
 
 .data-parent {
@@ -301,12 +301,14 @@ background-color: rgb(39, 52, 65);
     border: 1px solid rgb(88, 149, 230);
 
 }
+
 .hidden {
     display: none;
 
 }
-@media only screen and(min-width: 1118px){
-  .header{
-    width: 100%;
-  }  
+
+@media only screen and(min-width: 1118px) {
+    .header {
+        width: 100%;
+    }
 }
