@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: url(./img/avengers-bg.jpg);
+    background-image: url(/img/avengers-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -126,41 +126,45 @@ h1 {
 .swiper {
     width: 100%;
     height: 100%;
-  padding: 30px;
+    padding: 30px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
     padding: 30px 0px 50px 0px;
 }
 
 .swiper-slide {
     font-size: 18px;
-    background: rgb(235, 233, 233);
-   
+    background-color: rgb(39, 52, 65);
+
     padding: 15px 15px 15px 15px;
     border-radius: 7px;
     max-width: 350px;
 }
-.tarmoq:not(:last-child){
+
+.tarmoq:not(:last-child) {
     margin-bottom: 10px;
-   display: inline-block;
+    display: inline-block;
 }
+
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 250px;
     border-radius: 7px;
     object-fit: cover;
-    background-color: aliceblue;
+    background-color: rgb(59, 80, 99);
     margin-bottom: 20px;
 }
-.swiper-pagination{
+
+.swiper-pagination {
     position: absolute;
     background-color: rgb(250, 246, 246);
     bottom: 0;
     left: 0;
 }
-.block{
+
+.block {
     position: absolute;
     bottom: 38px;
     z-index: -3;
@@ -169,78 +173,140 @@ h1 {
     width: 150px;
     height: 1px;
 }
-.swiper-button-prev{
+
+.swiper-button-prev {
     background-color: rgb(179, 208, 245);
     border-radius: 100%;
-        padding: 30px ;
+    padding: 30px;
 }
+
 .swiper-button-next {
     background-color: rgb(179, 208, 245);
     border-radius: 100%;
-    padding: 30px ;
+    padding: 30px;
 }
-.qasos{
+
+.qasos {
     margin-bottom: 30px;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.swiper-img{
+
+.swiper-img {
     margin-bottom: 20px;
     border-radius: 5px;
 }
-.card-title{
+
+.card-title {
     color: gold;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
-.card-p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: gray;
+
+.card-p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(190, 220, 230);
 }
-.footer{
-    border-top:1px solid red ;
+
+.footer {
+    border-top: 1px solid red;
     background-color: rgba(26, 25, 25, 0.7);
     padding: 20px 0px 20px 0px;
 }
-.f{
+
+.f {
     color: rgb(177, 212, 243);
 }
-.foter-block{
-   display: flex;
-   max-width: 150px;
-   width: 100%;
-   justify-content: space-around;
+
+.foter-block {
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    justify-content: space-around;
 }
-.section-iframe{
+
+.section-iframe {
     padding: 50px 0px 50px 0px;
 }
-.grid{
-   display: flex;
-   justify-content: space-between;
-   backdrop-filter: blur(5px);
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
 }
-.template{
-  grid-row: 1/4;
+
+.template {
+   width: 390px;
+   height: 275px;
+   background-color: #151515;
 }
-.section-data{
+
+.section-data {
     padding: 50px 0px 50px 0px;
 }
-.data-wrapper{
+
+.data-wrapper {
     max-width: 600px;
-    max-height: 326px;
+    max-height: 385px;
     padding: 20px;
     overflow: auto;
-    border-radius: 10px;
-    color: aliceblue;
-    background-color: #023557;
+    border-radius: 3px;
+    color: rgb(181, 213, 245);
+background-color: rgb(39, 52, 65);
 }
-.data-parent{
+
+.data-parent {
     display: flex;
     justify-content: space-around;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #151515;
     padding: 20px;
 }
-.d-img-wrap{
-    
+
+.d-img-wrap {
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+    border: 1px gray solid;
+    max-height: 385px;
+}
+
+.q {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* loader */
+.overlay-div {
+    top: 0;
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 13, 26);
+}
+
+.y {
+    overflow-y: hidden;
+}
+
+.w {
+    max-width: 277px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    border: 1px solid rgb(88, 149, 230);
+
+}
+.hidden {
+    display: none;
+
+}
+@media only screen and(min-width: 1118px){
+  .header{
+    width: 100%;
+  }  
 }

@@ -1,13 +1,11 @@
-// var swiper = new Swiper(".mySwiper", {
-//     pagination: {
-//         el: ".swiper-pagination",
-//         type: "progressbar",
-//     },
-//     navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//     },
-// });
+
+const elOver = document.querySelector('.js-overlay')
+
+setTimeout(() => {
+    elOver.classList.add('hidden')
+    document.body.classList.remove('y')
+}, 5000);
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     centeredSlides: true,
@@ -23,9 +21,8 @@ var swiper = new Swiper(".mySwiper", {
     },
     pagination: {
         el: ".swiper-pagination",
-        // clickable: true,
-        type: "progressbar"
+        type: "progressbar",
+        clickable: true
     },
     loop: true
 });
-  
