@@ -26,6 +26,7 @@ body {
     top: 0;
     background-color: #151515;
     padding: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 15px rgb(3, 98, 161);
 }
 
 .header-title-link {
@@ -83,6 +84,7 @@ h1 {
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-bottom: 1px solid red;
 }
 
 .join {
@@ -108,12 +110,14 @@ h1 {
 }
 
 .avengerrs-img {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .section-one {
     padding: 50px 0px 50px 0px;
     background-color: #151515;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
 }
 
 
@@ -126,21 +130,20 @@ h1 {
 }
 
 .swiper-wrapper{
-    padding: 30px 0px 90px 0px;
+    padding: 30px 0px 50px 0px;
 }
 
 .swiper-slide {
     font-size: 18px;
     background: rgb(235, 233, 233);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     padding: 15px 15px 15px 15px;
     border-radius: 7px;
     max-width: 350px;
 }
-.tarmoq{
-
+.tarmoq:not(:last-child){
+    margin-bottom: 10px;
+   display: inline-block;
 }
 .swiper-slide img {
     display: block;
@@ -193,4 +196,51 @@ h1 {
 .card-p{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: gray;
+}
+.footer{
+    border-top:1px solid red ;
+    background-color: rgba(26, 25, 25, 0.7);
+    padding: 20px 0px 20px 0px;
+}
+.f{
+    color: rgb(177, 212, 243);
+}
+.foter-block{
+   display: flex;
+   max-width: 150px;
+   width: 100%;
+   justify-content: space-around;
+}
+.section-iframe{
+    padding: 50px 0px 50px 0px;
+}
+.grid{
+   display: flex;
+   justify-content: space-between;
+   backdrop-filter: blur(5px);
+}
+.template{
+  grid-row: 1/4;
+}
+.section-data{
+    padding: 50px 0px 50px 0px;
+}
+.data-wrapper{
+    max-width: 600px;
+    max-height: 326px;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #023557;
+}
+.data-parent{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #151515;
+    padding: 20px;
+}
+.d-img-wrap{
+    
 }
