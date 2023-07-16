@@ -11,18 +11,26 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     spaceBetween: 30,
     grabCursor: true,
+    
+scrollbar: {
+    el: ".swiper-scrollbar",
+        hide: true,
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+
+
+
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
     },
-    pagination: {
-        el: ".swiper-pagination",
-        type: "progressbar",
-        clickable: true
-    },
+    // pagination: {
+    //     el: ".swiper-scrollbar",
+    //     type: "progressbar",
+    //     clickable: true
+    // },
     loop: true
 });
