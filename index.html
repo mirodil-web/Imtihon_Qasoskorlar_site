@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
     <meta charset="UTF-8">
@@ -21,11 +21,13 @@
         <img class="loding-img" width="270" height="270" src="./img/loader.gif " alt="loader">
     </div>
 
+
+
     <!-- header -->
     <header class="header">
         <div class="container dflex">
-            <a class="header-title-link" href="index.html">
-                <img width="100" height="60" src="./img/Avengers-Emblem.png" alt="Avengers logo">
+            <a class="header-title-link " href="index.html">
+                <img width="100" class="logo" height="60" src="./img/Avengers-Emblem.png" alt="Avengers logo">
                 <h1>Qasoskorlar</h1>
             </a>
 
@@ -54,6 +56,46 @@
                 </ul>
             </nav>
 
+
+            <nav class="js-meniu meniu hidden">
+                <div class="respo">
+                    <a class="header-title-link klark" href="index.html">
+                        <img width="100" class="ljk" height="60" src="./img/Avengers-Emblem.png" alt="Avengers logo">
+                        <h1 class="h1">Qasoskorlar</h1>
+                    </a>
+                    <ul class="header-list vbn">
+                        <li class="rph ">
+                            <a class="nav-link hr" href="#">Yangiliklar</a>
+                        </li>
+                        <li class="rph">
+                            <a class="nav-link hr" href="#">Komikslar</a>
+                        </li>
+                        <li class="rph">
+                            <a class="nav-link hr" href="#">Kinolar</a>
+                        </li>
+                        <li class="rph">
+                            <a class="nav-link hr" href="#">Multifilmlar</a>
+                        </li>
+                        <li class="rph">
+                            <a class="nav-link hr" href="#">Trelerlar</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="btndiv"><button class="join ja">Ro'yhatdan o'tish</button></div>
+                </div>
+
+
+                <button class="js-exit exitbtn">
+                    <img width="50" height="50" src="./img/logout.png" alt="Exit">
+                </button>
+            </nav>
+
+
+
+            <button class="hamburger-btn js-btn ">
+                <img width="35" height="35" src="./img/burger-menu.png" alt="Hamburger">
+            </button>
+
             <a class="join" href="https://tolamirzayev_007">Ro'yhatdan o'tish</a>
 
         </div>
@@ -69,15 +111,15 @@
                     <img width="800" class="avengerrs-img" src="./img/avengers-1.webp" alt="Avengers">
                     <div>
                         <a href="https://twitter.com/marvel" target="_blank" class="tarmoq">
-                            <img width="30" height="30" src="./img/twitter.png" alt="icon">
+                            <img width="30" class="footer-logo" height="30" src="./img/twitter.png" alt="icon">
                         </a>
                         <br>
                         <a target="_blank" href="https://www.youtube.com/marvel" class="tarmoq">
-                            <img width="30" height="20" src="./img/YouTube.png" alt="icon">
+                            <img width="30" class="footer-logo" height="20" src="./img/YouTube.png" alt="icon">
                         </a>
                         <br>
                         <a target="_blank" href="https://www.facebook.com/Marvel/" class="tarmoq">
-                            <img width="30" height="30" src="./img/fackebok_icon.png" alt="icon">
+                            <img width="30" class="footer-logo" height="30" src="./img/fackebok_icon.png" alt="icon">
                         </a>
                     </div>
                 </div>
@@ -92,26 +134,24 @@
                 <div class="grid-block grid">
 
 
-                    <div class="template">
-                        <iframe width="370" height="255" src="https://www.youtube.com/embed/6ZfuNTqbHE8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
+                    <!-- <div class="template"> -->
+                    <iframe class="template" src="https://www.youtube.com/embed/6ZfuNTqbHE8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <!-- </div> -->
 
-                    <div class="template">
-                        <iframe width="370" height="255" src="https://www.youtube.com/embed/TcMBFSGVi1c"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
+                    <!-- <div class="template"> -->
+                    <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <!-- </div> -->
 
-                    <div class="template">
-                        <iframe width="370" height="255" src="https://www.youtube.com/embed/aiRY36TPVo8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
+                    <!-- <div class="template"> -->
+                    <iframe src="https://www.youtube.com/embed/aiRY36TPVo8" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
@@ -125,7 +165,7 @@
                             <div class="swiper-button-next">→</div>
                             <div class="swiper-button-prev swiper-button-disabled">←</div>
                         </div>
-                        <h2 class="qasos">Qasoskorlar Jamoasi Azolari</h2>
+                        <h2 class="qasos">Qasoskorlar Jamoasi <span class="spanx">Azolari</span></h2>
                     </div>
 
                     <div class="swiper-wrapper">
@@ -211,7 +251,7 @@
                             </p>
                         </div>
                     </div>
-                <div class="swiper-scrollbar bar swiper-pagination"></div>
+                    <div class="swiper-scrollbar bar swiper-pagination"></div>
                 </div>
 
             </div>
@@ -228,19 +268,19 @@
                         <img width="205" height="290" src="./img/Avengers2012POSTER.jpg" alt="avengers">
                         <p><strong>Rejisior:</strong> Joss Whedon</p>
 
-                        
+
                     </div>
                     <div class="d-img-wrap b-div">
                         <img width="100" src="./img/Avengers-Emblem.png" alt="">
                         <h3 class="s qasos m">
-                            Kerakli ma'lumotlarni 
+                            Kerakli ma'lumotlarni
                         </h3>
                         <img class="marvel-logo" src="./img/Marvel_Logo.svg.png" alt="marvel logo">
                         <h4 class="s qasos m d" style=" margin-bottom: 60px;">Sayitidan olishingiz mumkin</h4>
 
-                        <a href="https://www.marvel.com/" class="join olish">Ma'lumot olish</a>
+                        <a href="https://www.marvel.com/" class="joi olish shart">Ma'lumot olish</a>
                     </div>
-                    
+
                     <div class="data-wrapper">
                         <p class="data">
                             Qasoskorlar (inglizcha: The Avengers) — 2012-yilda Joss Whedon tomonidan ishlangan hamda
@@ -281,57 +321,62 @@
 
         <section class="boshlash">
             <div class="container tayyor">
-              <h2 class="qasos s">Filmlarni Ko'rmoqchimisiz ?</h2>
-              <a href="https://www.marvel.com/search?limit=20&query=Avengers&offset=0" class="join">Kinolarni Ko'rish</a>
+                <h2 class="qasos s">Filmlarni Ko'rmoqchimisiz ?</h2>
+                <a href="https://www.marvel.com/search?limit=20&query=Avengers&offset=0" class="join ja"><span
+                        class="spanx">Kinolarni</span>
+                    Ko'rish</a>
             </div>
         </section>
 
     </main>
 
     <footer class="footer">
-        <div class="container dflex">
+        <div class="container ">
+            <div class=" dflex">
 
-            <a class="header-title-link" href="index.html">
-                <img width="100" height="60" src="./img/Avengers-Emblem.png" alt="Avengers logo">
-                <h1>Qasoskorlar</h1>
-            </a>
-            <nav>
-                <ul class="header-list">
-
-                    <li class="header-list-link">
-                        <a class="nav-link f" href="#">Yangiliklar</a>
-                    </li>
-
-                    <li class="header-list-link ">
-                        <a class="nav-link f" href="#">Komikslar</a>
-                    </li>
-
-                    <li class="header-list-link ">
-                        <a class="nav-link f" href="#">Kinolar</a>
-                    </li>
-
-                    <li class="header-list-link ">
-                        <a class="nav-link f" href="#">Multifilmlar</a>
-                    </li>
-
-                    <li class="header-list-link">
-                        <a class="nav-link f" href="#">Trelerlar</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="foter-block">
-                <a href="https://twitter.com/marvel" target="_blank">
-                    <img width="30" height="30" src="./img/twitter.png" alt="icon">
+                <a class="header-title-link" href="index.html">
+                    <img width="100" class="logo" height="60" src="./img/Avengers-Emblem.png" alt="Avengers logo">
+                    <h1>Qasoskorlar</h1>
                 </a>
 
-                <a href="https://www.youtube.com/marvel" target="_blank">
-                    <img width="30" height="20" src="./img/YouTube.png" alt="icon">
-                </a>
+                <nav>
+                    <ul class="header-list">
 
-                <a href="https://www.facebook.com/Marvel/" target="_blank">
-                    <img width="30" height="30" src="./img/fackebok_icon.png" alt="icon">
-                </a>
+                        <li class="header-list-link">
+                            <a class="nav-link f" href="#">Yangiliklar</a>
+                        </li>
+
+                        <li class="header-list-link ">
+                            <a class="nav-link f" href="#">Komikslar</a>
+                        </li>
+
+                        <li class="header-list-link ">
+                            <a class="nav-link f" href="#">Kinolar</a>
+                        </li>
+
+                        <li class="header-list-link ">
+                            <a class="nav-link f" href="#">Multifilmlar</a>
+                        </li>
+
+                        <li class="header-list-link">
+                            <a class="nav-link f" href="#">Trelerlar</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="foter-block">
+                    <a href="https://twitter.com/marvel" class="right" target="_blank">
+                        <img width="30" class="footer-logo" height="30" src="./img/twitter.png" alt="icon">
+                    </a>
+
+                    <a href="https://www.youtube.com/marvel" class="right" target="_blank">
+                        <img width="30" class="footer-logo" height="20" src="./img/YouTube.png" alt="icon">
+                    </a>
+
+                    <a href="https://www.facebook.com/Marvel/" class="right" target="_blank">
+                        <img width="30" class="footer-logo" height="30" src="./img/fackebok_icon.png" alt="icon">
+                    </a>
+                </div>
             </div>
 
 
